@@ -1,16 +1,195 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
-Cmd: compileSnippet
-  insize=802 file=Assets/DefaultResourcesExtra/Internal/UIElements/Hidden/UIElements/EditorUIE pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=0 type=Vertex platform=d3d11 reqs=4075 mask=6 start=54 ok=1 outsize=4114
+Cmd: preprocessCompute
+  insize=7855 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7602
 
-Cmd: compileSnippet
-  insize=802 file=Assets/DefaultResourcesExtra/Internal/UIElements/Hidden/UIElements/EditorUIE pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=0 type=Fragment platform=d3d11 reqs=4075 mask=6 start=54 ok=1 outsize=9542
+Cmd: compileComputeKernel
+  insize=7602 file=Assets/Resources/HairShader.compute kernel=velShare ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(45): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(47): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(49): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(86): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(88): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(90): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(117): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(119): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(155): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(157): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(194): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(196): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(201): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1348
 
-Cmd: compileSnippet
-  insize=16617 file=Assets/DefaultResourcesExtra/Skybox/Procedural pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_SUNDISK_SIMPLE dKW=_SUNDISK_NONE _SUNDISK_HIGH_QUALITY UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=0 type=Vertex platform=d3d11 reqs=33 mask=6 start=20 ok=1 outsize=5698
+Cmd: compileComputeKernel
+  insize=7602 file=Assets/Resources/HairShader.compute kernel=calc ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(45): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(47): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(49): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(86): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(88): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(90): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(117): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(119): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(155): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(157): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(194): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(196): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(201): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1993
 
-Cmd: compileSnippet
-  insize=16617 file=Assets/DefaultResourcesExtra/Skybox/Procedural pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_SUNDISK_SIMPLE dKW=_SUNDISK_NONE _SUNDISK_HIGH_QUALITY UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=0 type=Fragment platform=d3d11 reqs=33 mask=6 start=20 ok=1 outsize=934
+Cmd: compileComputeKernel
+  insize=7602 file=Assets/Resources/HairShader.compute kernel=interactionWithColliders ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(45): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(47): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(49): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(86): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(88): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(90): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(117): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(119): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(155): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(157): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(194): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(196): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(201): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1643
+
+Cmd: compileComputeKernel
+  insize=7602 file=Assets/Resources/HairShader.compute kernel=calcApply ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(45): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(47): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(49): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(86): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(88): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(90): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(117): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(119): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(155): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(157): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(165): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(194): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(196): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(201): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1772
+
+Cmd: compileComputeKernel
+  insize=7602 file=Assets/Resources/HairShader.compute kernel=visInternodeLines ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(45): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(47): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(49): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(86): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(88): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(90): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(117): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(119): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(155): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(157): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(194): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(196): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(201): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(210): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(211): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=1760
+
+Cmd: compileComputeKernel
+  insize=7602 file=Assets/Resources/HairShader.compute kernel=clearTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(45): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(47): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(49): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(86): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(88): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(90): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(117): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(119): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(155): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(157): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(194): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(196): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(201): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=342
+
+Cmd: compileComputeKernel
+  insize=7602 file=Assets/Resources/HairShader.compute kernel=pixelsToTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(45): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(47): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(49): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(86): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(88): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(90): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(117): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(119): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(155): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(157): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(194): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(196): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(201): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=694
+
+Cmd: compileComputeKernel
+  insize=7602 file=Assets/Resources/HairShader.compute kernel=clearPixels ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(45): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(47): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(49): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(86): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(88): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(90): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(117): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(119): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(155): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(157): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(194): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(196): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(201): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=393
+
+Cmd: disassembleShader
+ name=calc platform=d3d11 type=0 mask=0 insize=1644 outsize=2740 ok=1
+
+Cmd: disassembleShader
+ name=velShare platform=d3d11 type=0 mask=0 insize=1036 outsize=1956 ok=1
+
+Cmd: disassembleShader
+ name=interactionWithColliders platform=d3d11 type=0 mask=0 insize=1264 outsize=2456 ok=1
+
+Cmd: disassembleShader
+ name=calcApply platform=d3d11 type=0 mask=0 insize=1328 outsize=2493 ok=1
+
+Cmd: disassembleShader
+ name=visInternodeLines platform=d3d11 type=0 mask=0 insize=1440 outsize=2452 ok=1
+
+Cmd: disassembleShader
+ name=pixelsToTexture platform=d3d11 type=0 mask=0 insize=496 outsize=1207 ok=1
+
+Cmd: disassembleShader
+ name=clearPixels platform=d3d11 type=0 mask=0 insize=232 outsize=753 ok=1
+
+Cmd: disassembleShader
+ name=clearTexture platform=d3d11 type=0 mask=0 insize=176 outsize=704 ok=1
+
+Cmd: disassembleShader
+ name=oneThreadAction platform=d3d11 type=0 mask=0 insize=460 outsize=1113 ok=1
+
+Cmd: preprocessCompute
+  insize=7792 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7504
+
+Cmd: preprocessCompute
+  insize=7792 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7504
+
+Cmd: preprocessCompute
+  insize=7793 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7505
+
+Cmd: preprocessCompute
+  insize=7794 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7506
+
+Cmd: preprocessCompute
+  insize=7790 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7502
+
+Cmd: preprocessCompute
+  insize=7791 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7503
+
+Cmd: preprocessCompute
+  insize=7808 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7529
+
+Cmd: preprocessCompute
+  insize=7809 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7530
+
+Cmd: preprocessCompute
+  insize=7790 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7516
+
+Cmd: preprocessCompute
+  insize=7790 file=Assets/Resources/HairShader.compute buildPlatform=19 validAPIs=295472 pKW=SHADER_API_DESKTOP dKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL ok=1 outsize=7516
 
 Cmd: shutdown
