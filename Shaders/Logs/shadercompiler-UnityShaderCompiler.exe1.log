@@ -1,0 +1,1049 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=7914 file=Assets/Resources/HairShader.compute kernel=oneThreadAction ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=719
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=oneThreadAction ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=719
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=clearTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=342
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=clearPixels ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=393
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=pixelsToTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1123
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=visInternodeLines ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(232): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(233): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=1761
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=calcApply ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(182): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1988
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=interactionWithColliders ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=velShare ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1347
+
+Cmd: compileComputeKernel
+  insize=7916 file=Assets/Resources/HairShader.compute kernel=calc ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1992
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=oneThreadAction ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=719
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=clearTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=342
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=clearPixels ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=393
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=pixelsToTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1123
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=visInternodeLines ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(232): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(233): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=1761
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=calcApply ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(182): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1996
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=interactionWithColliders ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=velShare ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1347
+
+Cmd: compileComputeKernel
+  insize=7922 file=Assets/Resources/HairShader.compute kernel=calc ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1992
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=oneThreadAction ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=719
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=clearTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=342
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=clearPixels ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=393
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=pixelsToTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1123
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=visInternodeLines ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(232): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(233): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=1761
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=calcApply ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(182): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2052
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=interactionWithColliders ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=velShare ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1347
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=calc ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1992
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=oneThreadAction ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=719
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=clearTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=342
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=clearPixels ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=393
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=pixelsToTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1123
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=visInternodeLines ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(232): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(233): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=1761
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=calcApply ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(182): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2052
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=interactionWithColliders ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=velShare ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1347
+
+Cmd: compileComputeKernel
+  insize=7928 file=Assets/Resources/HairShader.compute kernel=calc ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1992
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=oneThreadAction ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=719
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=clearTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=342
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=clearPixels ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=393
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=pixelsToTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1123
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=visInternodeLines ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(232): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(233): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=1761
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=calcApply ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(182): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1992
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=interactionWithColliders ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=velShare ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1347
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=calc ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1992
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=oneThreadAction ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=719
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=clearTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=342
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=clearPixels ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=393
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=pixelsToTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1123
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=visInternodeLines ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(232): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(233): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=1761
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=calcApply ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(182): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1996
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=interactionWithColliders ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=velShare ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1347
+
+Cmd: compileComputeKernel
+  insize=7932 file=Assets/Resources/HairShader.compute kernel=calc ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1992
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=oneThreadAction ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=719
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=clearTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=342
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=clearPixels ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=393
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=pixelsToTexture ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1123
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=visInternodeLines ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(232): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(233): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=1761
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=calcApply ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(182): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1976
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=interactionWithColliders ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1644
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=velShare ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1347
+
+Cmd: compileComputeKernel
+  insize=7936 file=Assets/Resources/HairShader.compute kernel=calc ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202238> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0  error: 1 plat 4 at HairShader.compute(56): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(58): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(61): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(100): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(102): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(105): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(134): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(136): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(172): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(174): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(216): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(218): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at HairShader.compute(223): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1992
+
+Cmd: shutdown
